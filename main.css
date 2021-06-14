@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Architects Daughter;
+    text-align: center;    
+}
+.title{
+    padding-top: 25px;
+    background-color: black;
+    padding-bottom: 25px;
+}
+
+.title a{
+    color: white;
+    font-size: 20px;
+}
+
+.title a:hover{
+    color: thistle;
+}
+
+#container {
+	position: relative;
+	outline:2px solid #000;
+	font-size: 0;
+	margin:auto;
+	height:600px;
+	width:960px;
+	margin-top: 20px;
+	border: none;
+}
+
+.footer{
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.grid {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:1px solid #000;
+	display:inline-block;
+}
+
+.newGrid{
+    position: relative;
+  background-color: goldenrod;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+}
